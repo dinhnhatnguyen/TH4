@@ -1,0 +1,438 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    margin-top: 20px;
+}
+.header-menu{
+    width: 956px;
+    height: 114px;
+}
+.header-top{
+    width: 1065px;
+    height: 120px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 12px;
+}
+.header-menu-top{
+    width: 956px;
+    height: 50px;
+}
+.header-menu-top{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 100px;
+}
+.header-menu-top ul li{
+    float: left;
+    list-style: none;
+    font-size: 14px;
+}
+.header-menu-top a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.header-menu-top a:hover{
+    opacity: 70%;
+}
+.header-menu-top ul li+li{
+    margin-left: 30px;
+}
+#menu-bar{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#seach-bar input{
+   width: 250px;
+   height: 35px;
+}
+.header-menu-bot{
+   width: 956px;
+   height: 67px;
+   background-color: #f69631;
+   display: grid;
+   grid-template-columns: auto auto;
+   column-gap: 10px;
+}
+.header-menu-bot li{
+    float: left;
+    list-style: none;
+    font-size: 1.0em;
+}
+.header-menu-bot li a:hover{
+    opacity: 70%;
+}
+.header-menu-bot li+li{
+    padding-left: 30px;
+}
+#menu-item{
+    margin-left: 20px;
+    margin-top: 25px;
+}
+.header-menu-bot a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.icon{
+    width: 235px;
+    height: 40px;
+    display: grid;
+    margin-left: 50px;
+    grid-template-columns: auto auto auto auto auto;
+}
+.icon a{
+    display: block;
+    width: 40px;
+    height: 40px;
+    border: #f5f5f5 1px solid;
+    margin-top: 15px;
+}
+.header-bot{
+    margin: auto;
+   margin-top: 10px;
+    width: 1083px;
+    height: auto;
+    margin-bottom: 40px;
+}
+.header-bot a{
+    display: block;
+    width: 1083px;
+    height: 250px ;
+    background-image: url(/images/banner-redmi-note7.png);
+    background-size: 1083px 250px;
+}
+.header-bot img{
+    width: 100%;
+}
+.banner-top{
+    width: 1083px;
+    height: 462px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    column-gap: 3px;
+    row-gap: 3px;
+}
+.banner-top-item-1{
+    
+    grid-column: span 3;
+    grid-row: 1/3;
+}
+.banner-top-item-1 a{
+    display: block;
+    width: 547px ;
+    height: 463px;
+    text-decoration: none;
+    background-image: url(/images/msi-2019.jpg);
+}
+.banner-top-item-2{
+    grid-column: 4/6;
+    grid-row: 1/2;
+}
+.banner-top-item-2 a{
+    display: block;
+    width: 533px;
+    height: 261px;
+    background-image:  url(/images/msi-2019-players.jpg);
+    text-decoration: none;
+}
+.banner-top-item-3 a{
+    display: block;
+    width: 265px;
+    height: 198px;
+    background-image: url(/images/levi-jdk.jpg);
+    text-decoration: none;
+}
+.banner-top-item-4 a{
+    display: block;
+    width: 265px;
+    height: 198px;
+    background-image: url(/images/kieu-anh-hera.jpg);
+    text-decoration: none;
+}
+.banner-top-item-1 li 
+{
+    list-style: none;
+    color: #fff;
+    font-size: 1.8em;
+    text-align: justify;
+}
+.banner-top-item-1 p
+{
+    color: #fff;
+    opacity: 80%;
+}
+#a_content {
+    width: 430px;
+    height: 135px;
+    position: relative;
+    top: 315px;
+    left: 20px;
+    font-weight: 500;
+}
+
+.banner-top-item-2 li{
+    list-style: none;
+    color: #fff;
+    font-size: 1.5em;
+    text-align: justify;
+    width: 425px;
+    height: auto;
+    position: relative;
+    top: 195px;
+    left: 20px;
+    font-weight: 500;
+}
+.banner-top-item-3 li{
+    list-style: none;
+    color: #fff;
+    text-align: justify;
+    font-size: 1.2em;
+    width: 216px;
+    font-weight: 500;
+    position: relative;
+    top: 100px;
+    left: 20px;
+}
+.banner-top-item-4 li{
+    list-style: none;
+    color: #fff;
+    text-align: justify;
+    font-size: 1.2em;
+    width: 216px;
+    font-weight: 500;
+    position: relative;
+    top: 100px;
+    left: 20px;
+}
+.banner-bot{
+    width: 1083px;
+    height: 895px;
+    margin: auto;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 695px auto;
+    column-gap: 65px;
+}
+.title-news{
+    width: 90px;
+   border-bottom: #f5f5f5 2px solid;
+}
+.orange-line::after{
+    display: block;
+    content: "";
+    height: 2px;
+    width: 50px;
+    position: absolute;
+    background-color: rgba(246, 150,49, 0.9);
+}
+.title-news p {
+    color: #f69631;
+    font-weight: 500;
+    font-size: 1.3em;
+}
+.title p{
+    color: #f69631;
+    font-weight: 500;
+    font-size: 1.3em;
+}
+.title{
+    width: 325px;
+    border-bottom: #f5f5f5 solid 2px;
+}
+.content-left-item-1{
+    display: block;
+    width: 695px;
+    height: 151px;
+    text-decoration: none;
+    margin-top: 22px;
+    display: grid;
+    grid-template-columns: 225px auto;
+    column-gap: 30px;
+}
+.content-left-item-1 img,.content-left-item-2 img,
+.content-left-item-3 img,.content-left-item-4 img{
+    width: 225px;
+    height: 151px;
+}
+.content-left-item-2
+,.content-left-item-3,
+.content-left-item-4
+{
+    display: block;
+    width: 695px;
+    height: 151px;
+    margin-top: 38px;
+    display: grid;
+    grid-template-columns: 225px auto;
+    column-gap: 30px;
+    text-decoration: none;
+}
+#title{
+    color: black;
+    font-size: 1.35em;
+    font-weight: 500;
+}
+#date{
+    color: #aaaaaa;
+    font-size: 0.75em;
+}
+#main-content{
+    color: #777777;
+    font-size: 0.9em;
+}
+.content-left-item-1 p+p,.content-left-item-2 p+p,.content-left-item-3 p+p, .content-left-item-4 p+p
+{
+    margin-top: 10px;
+}
+.right-content{
+    margin-top: 22px;
+}
+.right-content a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    width: 325px;
+    height: 55px;
+    border-bottom: #f5f5f5 dotted 2px;
+}
+.right-content a+a
+{
+    margin-top: 20px;
+}
+.right-content img{
+    width: 325px;
+    height: 368;
+}
+.more{
+    width: 100px;
+    height: 40px;
+    margin: auto;
+    margin-top: 40px;
+}
+.more p{
+    color: #c9c9c9;
+}
+.more button:hover{
+    opacity: 50%;
+}
+.content-left button{
+    width: 100px;
+    height: 40px;
+    background-color: #fff;
+    margin-left: 100px;
+}
+.footer{
+    width: 100%;
+    height: 340px;
+}
+.footer-top{
+    height: 300px;
+    background-color: #383838;
+}
+.footer-container{
+    width: 910px;
+    height: 150px;
+    margin: auto;
+    padding-top: 75px;
+    display: grid;
+    grid-template-columns: 625px 245px;
+    column-gap: 50px;
+}
+.about-us h1{
+color: #f5f5f5;
+font-size: 1.5em;
+font-weight: 500;
+}
+.about-us p{
+    color: #f5f5f5;
+}
+.social-network h2{
+    color: #f5f5f5;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+.footer-bot{
+    height: 40px;
+    background-color: #0d0d0d;
+}
+.footer-bot p{
+    color: white;
+    opacity: 50%;
+    font-size: 0.8em;
+    width: 910px;
+    margin: auto;
+    padding-top: 15px;
+}
+#icon{
+    width: 240px;
+    height: 40px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    column-gap: 10px;
+    margin-top: 40px;
+}
+#icon a{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: #3e3e3e;
+}
+#icon img{
+    width: 40px;
+    height: 40px;
+}
+#i-1{
+    background-image: url(https://i.pinimg.com/564x/8e/c9/60/8ec960f21ab739524f2a48aafbd95a9e.jpg);
+    background-size: 40px 40px;
+}
+#i-2{
+    background-image: url(https://i.pinimg.com/736x/b8/17/dc/b817dcb4b8c95e088f113e5b9dcaad7c.jpg);
+    background-size: 40px 40px;
+}
+#i-3{
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAdVBMVEUAAAD///81NTXt7e3p6em9vb3k5ORoaGgQEBD6+vp4eHivr697e3vW1tbR0dHe3t6fn58qKipcXFyXl5f29vZBQUHKysoYGBiqqqqCgoK/v79hYWFKSkqQkJC3t7dGRkYjIyM6OjpSUlJwcHCcnJyLi4smJiY1Y6TVAAAIMElEQVR4nO2dbXuiOhCGeVOwSrUWbde2Vrft+f8/8RSVVSGEeSYTgl65P+yXvZowksx7QhAeiadplAX3Qhal0/gkWXD4N5m5fiYLzJKzhCPXD2OJUSXhwvWTWGNxlPBe32DJqJQwcf0UVkl+JbxHJXNmFgax62ewTBxMXT+CZaZB6voRLJMGketHsEwU3I+rpube5fN4PB6Px+PxeDwej8fj8ciSLb+nm/xUEpwk+XaRvrh+JjGy9+fHIlQw3i77fI7Vw2Kd5/nj9kf2x003sUq6Ssjnvt7k8/xi2uLxQWjY6FUn3nHFPgvNpX2ObWPe4kdg3NWmS7wD8bvAXDqemvKVzE3nXa1J8pXYfY2LSdu8ZnXJBVm+XyzWz5a6ffLBH/etc/9ds5UT6YqXkX5e9up5xeQLbTVbfCmt1CU8nRrlsIBh+CUsXMmUMO8nY9xl687WMRGXbz+mzDvGB0458v2yERbwgTjvNzrwH6aAYSjrwtF1+X/YwD9sAcNHSQHpxhjU4198AcNQzreJIGO1AkZemggotxNTTNcB/sa7kYBhKCTgMzjthB7fJIYSyoQ0NH//EnKYAexuNRLL9GXePU+dnDj2h6mAElZ/z1pHtLFNN2HJX1MBPzsdUSV/SIMzVkcD07j7jTnvmjI4qsCUGAZRbH+Kok33EgKGcyMBoaD7GoIW5wRMTYy6gSmxUhuvnaNzN0CNiUErqZGt6l48pFCMAFuZZmaLKO7aiPyQqcYbU8CdqTvV5fWDead2mH7bimcG6ROLvUKi6a0joAU67JTYK+QlMGcCE+tdU6Ow9xo4aRJI+MNhl0sspUhDil1qgOdmleiyNUK28AAuIR4NqtFpcak5SuDU92MPMz+xEsAtgHWETG6DaJSpyEavwHTp3tgMntH4bYJ6BrSHvPJBG63TSIT2Z5D6jKCRKnlqm0dIWZ8A/FKD7LqS1h/331ZI8vVokxt6wPTYwiDcVdOm5MpFOhkvHs6B3duC78QVrUulTkdtl0GbMt2Gj7N62Jp9c1UA+dC28B4saSskfiijcq76oaZmzVIWasAMyor3FgGnTZm8TMYGFhIpQQVcPwAIgHfN33D0q6eefthGEj1QzXIEkERUvZqenxIRGTclhaajOS+xgGb4vvzTycXrZ+pZtC4UMeYAL/i4eFnr3eV/8KIdOB3NsIpoHqpSK5P6H7K2SIyeGmdsB3CG4PP4Z826CmcBYVqgRN3yqINuDSvKJF+hevMsVY62u+AuOaONbhtudsr/4NT60EQfLiGjaJG1RQScziz0JiPYrxLtGOIUw9BdAu9DqebyI39xCdE2AtTuFsJXfDCycOAM6DKRvs+LkcYFlanl4bvB0w2YMt+Bo8tfd4XbRKxRAq24cWoyenZwrIj1C6Oq1MJVQrA2x5Qp+APaOHGB94IiHa5oqsjKfV5weIMcogEjC+k29iOw4wiUvp7Aoe0c7kKfAvHbwC43UuccAzQSBi7ZBIc27rpsAe6H3lNHBjPCZg17GuBYn5xRBL1ebidUN+gypaoa0BDJBoZXoNqU+ijgK7S1CwM8wCB6x2DwaccWnkCNPs3zAF8huWbIAU0Ok7wa8BUy2qAA0J43UgCFBffyJyuvQMNUis0HFanBcWoSqL0gDIklD6xfRo7ai+6MH+goyaYQFaBBYqdaALvc8FIFDChhZyYD1M49XGQNRqqTnX44cE3Ip5+aoCm3jsazgamZkhUood4igr+XvZjiEtBeaH92UM309F0OtICiu0cC29RFTxcoUS9XqND4IKAP2Nd3OSKwh6g9RsywgXowhSdQx611bYHltP6+6YC2orY1R4E9u31c8XUCDfRbVhe42q2l11SAEoY75SiDXaMB3rykdLXAkIJ3Co8L6rip8lFg5sJi/lAFnBhu+qYZVi2cWE0+KUBL+k1dA25C62FvHbjjtN42AbY/WU2QKoFb+2uqHtQyWCewCKjjVtuJqGfbT8x0DdyqeBkWoG0lTr6ihp8hOisb1NYw7rgTgNGMWUWvsJYCz21IwTiFkZSP+gO3HfVuKE6wzgsXjE5jW/eUdiJ6lleDm01YAjeeMHG0CUsED0VrcLUJS+SPZCpwtglLUL+Eg9uv+vaxEcn9RnaQuE9Oj+vPFsseq1fgdBOWSF7BosKdJawA8xAofdUodIhd9KKk1091tGDVcZP4loQxnxYFdK5ljtjbiL1m8DVYc9zinWvRTlhz3Cy2j4JYErDfEoUWO46bk9RaC1Yct/5q2QTMLsVXMxgtc+BF3l70XmTqQN5x43zExSbS94PBd9pYh3GEXcuA7ESF3F2yJX20VqLg15FoGJIh/IfEhbwVto4UGiIn4KAs/QViyzSxcPhcBLRjuI1i51qSVmQ+cTBgAWWCxM5r+F2SCZjEYXnbDcxDqEG/wUCgRJMMXEDji0HHQzUTZ17uXUAzq38TAprsxJ4bY9mwd+JAkvfdcD8FYPdQtii8bMYg6ktUGLnhYji5ewp4pW0OfnLWOaiy6ekkoSRY+77Lbi4ue0Cfzns94SMGvX//hozENcTe79jOPWS9QLo7AP560aDoLuyvHTfjGdMR789dHA0RRrcXx8hnfYbLss0u5oMrnLFRrdT49YYVaJNVzYMbT4fQhSdMOs1LF6cYbxZfg8+keTwej8fj8Xg8Ho/H4/F4rHETLSwGZMFtVu/oRMH9ZJ/VpMEgu/4FmQbyH50bFnHg/MIJu8zCwPGtKLZJfiW8xW4WMqOwlPDGq+k6yhrt4STPvb7FQyvB8axSco/qZnasQFenseJpGt2PA5dF6bQ6+vE/dk9rkhf8UMkAAAAASUVORK5CYII=);
+    background-size: 41px 41px;
+    background-position: -0.5px -0.5px;
+}
+#i-4{
+    background-image: url(https://i.pinimg.com/564x/af/f8/b7/aff8b7fc9b281f1a56a619955c285730.jpg);
+    background-size: 41px 41px;
+    background-position: -0.5px -0.5px;
+}
+#i-5{
+    background-image: url(https://i.pinimg.com/736x/34/84/7f/34847f44cee83fca2ac0ef21ba95803e.jpg);
+    background-size: 41px 41px;
+    background-position: -0.5px -0.5px;
+}
+#icon-1{
+    background-image: url(https://i.pinimg.com/736x/07/ee/9c/07ee9c9cbed3215397d4e74c3da85fdb.jpg);
+    background-size: 40px 40px;
+    opacity: 60%;
+}
+#icon-2{
+    background-image: url(https://i.pinimg.com/474x/e5/4e/7f/e54e7f0c09a54ecab148004c0ae42a3e.jpg);
+    background-size: 40px 40px;
+    opacity: 60%;
+    background-position: -1px -0.5px;
+}   
+#icon-3{
+    background-image: url(https://i.pinimg.com/564x/2b/4d/7f/2b4d7f078a9c66c65a1cfbf64b53d424.jpg);
+    background-size: 40px 40px;
+    opacity: 60%;
+
+}
+#icon-4{
+    background-image: url(https://i.pinimg.com/564x/0c/69/e6/0c69e69ab847634b59ed46ba22bac7a0.jpg);
+    background-size: 40px 40px;
+    opacity: 60%;
+    
+}
